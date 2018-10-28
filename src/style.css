@@ -1,0 +1,78 @@
+.container {
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  width: 100%;
+  max-width: 600px;
+  padding: 20px 40px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+img {
+  max-width: 400px;
+}
+
+/* .avatar {
+  -webkit-transform: translatey(0px);
+  transform: translatey(0px);
+  -webkit-animation: float 6s ease-in-out infinite;
+  animation: float 6s ease-in-out infinite;
+} */
+
+.hardware {
+  -webkit-animation: float 6s ease-in-out infinite;
+  animation: float 6s ease-in-out infinite;
+}
+
+.code {
+  /* display: block; */
+  position: absolute;
+  -webkit-animation: float 5.9s ease-in-out infinite;
+  animation: float 5.9s ease-in-out infinite;
+}
+
+.skin {
+  /*  display: inline; */
+  position: absolute;
+  -webkit-animation: float 5.8s ease-in-out infinite;
+  animation: float 5.8s ease-in-out infinite;
+}
+
+@-webkit-keyframes float {
+  0% {
+    -webkit-transform: translatey(0px);
+    transform: translatey(0px);
+  }
+  50% {
+    -webkit-transform: translatey(-20px);
+    transform: translatey(-20px);
+  }
+  100% {
+    -webkit-transform: translatey(0px);
+    transform: translatey(0px);
+  }
+}
+
+@keyframes float {
+  0% {
+    -webkit-transform: translatey(0px);
+    transform: translatey(0px);
+  }
+  50% {
+    -webkit-transform: translatey(-20px);
+    transform: translatey(-20px);
+  }
+  100% {
+    -webkit-transform: translatey(0px);
+    transform: translatey(0px);
+  }
+}

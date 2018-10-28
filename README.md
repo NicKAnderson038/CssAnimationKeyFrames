@@ -1,2 +1,0 @@
-# CssAnimationKeyFrames
-Created with CodeSandbox
